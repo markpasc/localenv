@@ -26,4 +26,4 @@ localenv is designed to work with [cpanminus][] for installing Perl modules.
 
 ## Installation ##
 
-# Copy the `localenv` script to your `bin` directory and make sure it's executable.
+1. Copy the `localenv` script to your `bin` directory and make sure it's executable.
