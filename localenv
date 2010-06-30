@@ -88,8 +88,11 @@ fi
     if not exists(bin_path):
         os.makedirs(bin_path)
 
-    with open(join(bin_path, 'activate'), 'w') as activate_file:
+    activate_file = open(join(bin_path, 'activate'), 'w')
+    try:
         print >>activate_file, activate_script
+    finally:
+        activate_file.close()
 
     return 0
 

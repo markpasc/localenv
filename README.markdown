@@ -17,7 +17,7 @@ localenv is designed to work with [cpanminus][] for installing Perl modules.
 
 ## Requirements ##
 
-* Python 2.6
+* Python 2.4
 * [`local::lib`][llib]
 * [cpanminus][] (not strictly required but strongly encouraged)
 
